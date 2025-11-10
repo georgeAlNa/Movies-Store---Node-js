@@ -62,27 +62,6 @@ MONGODB_URI=mongodb://localhost:27017/Moves_Store
 
 ---
 
-## API Endpoints
-
-### Genre Endpoints
-| Method:|     Endpoint:     | Description: 
-| GET    | `/api/genres`     | Get all genres 
-| GET    | `/api/genres/:id` | Get a single genre by ID 
-| POST   | `/api/genres`     | Create a new genre 
-| PUT    | `/api/genres/:id` | Update an existing genre 
-| DELETE | `/api/genres/:id` | Delete a genre 
-
-### Movie Endpoints
-| Method:| Endpoint:                    | Description: 
-| GET    | `/api/movies`                | Get all movies (with genre populated) 
-| GET    | `/api/movies/:id`            | Get single movie by ID (with genre populated) 
-| POST   | `/api/movies`                | Create a new movie 
-| PUT    | `/api/movies/:id`            | Update a movie 
-| DELETE | `/api/movies/:id`            | Delete a movie 
-| GET    | `/api/movies/genre/:genreId` | Get movies by genre 
-
----
-
 ## Postman Collection :
 Included at root path of project with name : "Node js - Movies Store.postman_collection.json"
 
